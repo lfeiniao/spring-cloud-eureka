@@ -1,0 +1,13 @@
+server:
+  port: 9010
+
+spring:
+  application:
+    name: eurekaserver
+    
+eureka:
+  instance:
+    hostname: eurekaserver2
+  client:
+    service-url:
+      defaultZone: http://eurekaserver1:9000/eureka # eureka 服务器的地址
