@@ -1,5 +1,5 @@
 server:
   port: 8011
 neo:
-  hello: i am dev
+  hello: i am dev update
     
