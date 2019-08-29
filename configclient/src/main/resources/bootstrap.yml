@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    config:
+      name: neo-config  #文件名称
+      profile: dev # 那个分支（dev,test.pro）
+      uri:
+      - http://localhost:8010 #配置服务器地址
+      label: master

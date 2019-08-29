@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: config-client
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+        exclude: env,beans
+#management.endpoints.web.exposure.include=*

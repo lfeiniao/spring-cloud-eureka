@@ -6,4 +6,17 @@
   	<version>0.0.1-SNAPSHOT</version>
   </parent>
   <artifactId>eurekaclient</artifactId>
+  <dependencies>
+  	<!-- eureka 客户端 -->
+  	<dependency>
+		<groupId>org.springframework.cloud</groupId>
+		<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+    </dependency>
+    <!-- springboot 单元测试 -->
+    <dependency>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-test</artifactId>
+		<scope>test</scope>
+	</dependency>
+  </dependencies>
 </project>
